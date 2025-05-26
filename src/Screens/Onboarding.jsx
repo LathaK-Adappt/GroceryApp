@@ -1,12 +1,16 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ImageBackground } from 'react-native';
+import { myColors } from '../Utils/MyColors';
 
 // create a component
-const Login = () => {
+const Onboarding = () => {
     return (
         <View style={styles.container}>
-            <Text>MyComponent</Text>
+            
+            <ImageBackground source={require('../assets/onbording.jpg')}/>
+            <Image style={{tintColor: myColors.primary}} source={require('../assets/apple.png')}/>
+            <Text></Text>
         </View>
     );
 };
@@ -22,4 +26,4 @@ const styles = StyleSheet.create({
 });
 
 //make this component available to the app
-export default Login;
+export default Onboarding;
