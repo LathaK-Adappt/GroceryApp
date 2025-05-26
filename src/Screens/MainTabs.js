@@ -2,14 +2,11 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Shop from '../Screens/Shop';
 import Explore from '../Screens/Explore';
 import Cart from '../Screens/Cart';
 import Favourite from '../Screens/Favourite';
-import Account from '../Screens/Account';
 import {myColors} from '../Utils/MyColors';
 import Home from './Home';
-import Signup from './Signup';
 import Login from './Login';
 
 const Tab = createBottomTabNavigator();
