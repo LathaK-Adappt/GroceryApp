@@ -1,12 +1,12 @@
 export const fruits = [
     {
-    name: "banana",
+    name: "Organic Bananas",
     weight: "1kg",
     price: 30,
     img: 'https://ik.imagekit.io/iwnaprfro/banana1.png?updatedAt=1748274783909',
   },
   {
-    name: "apple",
+    name: "Red Apple",
     weight: "1kg",
     price: 250,
    img: 'https://ik.imagekit.io/iwnaprfro/apple1.png?updatedAt=1748274785854',
