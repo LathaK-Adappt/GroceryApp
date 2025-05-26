@@ -8,6 +8,9 @@ import Cart from '../Screens/Cart';
 import Favourite from '../Screens/Favourite';
 import Account from '../Screens/Account';
 import { myColors } from '../Utils/MyColors';
+import Home from './Home';
+import Signup from './Signup';
+import Login from './Login';
 
 const Tab = createBottomTabNavigator();
 
@@ -43,11 +46,11 @@ export default function MainTabs() {
         tabBarInactiveTintColor: myColors.third,
       })}
     >
-      <Tab.Screen name="Shop" component={Shop} />
+      <Tab.Screen name="Shop" component={Home} />
       <Tab.Screen name="Explore" component={Explore} />
       <Tab.Screen name="Cart" component={Cart} />
       <Tab.Screen name="Favourite" component={Favourite} />
-      <Tab.Screen name="Account" component={Account} />
+      <Tab.Screen name="Account" component={Login} />
     </Tab.Navigator>
   );
 }

@@ -78,34 +78,6 @@ const Details = ({ route }) => {
         <Text style={{ marginTop: 5, fontSize: 15, color: "grey" }}>
           {weight}, Price
         </Text>
-         <View
-                            style={{
-                              flexDirection: "row",
-                              alignItems: "center",
-                              gap: 10,
-                            }}
-                          >
-                            <AntDesign
-                              name="minuscircleo"
-                              size={28}
-                              color={myColors.primary}
-                              onPress={() => {
-                                dispatch(decrementQuantity(item));
-                              }}
-                            />
-                            <Text style={{ fontSize: 17 }}>8</Text>
-                            <AntDesign
-                              name="pluscircleo"
-                              size={28}
-                              color={myColors.primary}
-                              onPress={() => {
-                                if (item.quantity == 7) { 
-                                } else {
-                                  dispatch(incrementQuantity(item));
-                                }
-                              }}
-                            />
-                          </View>
         <Text
           style={{
             marginTop: 5,
