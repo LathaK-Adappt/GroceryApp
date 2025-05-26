@@ -39,7 +39,7 @@ const Orderplaced = () => {
                 }}
               >
                 
-                  <Text style={{ color: "white", fontSize: 18, fontWeight: "700", paddingHorizontal:25 }}>
+                  <Text style={{ color: "white", fontSize: 18, fontWeight: "700", paddingHorizontal:100 }}>
                     Back to Home
                   </Text>
                   

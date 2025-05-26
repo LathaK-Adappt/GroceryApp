@@ -9,7 +9,7 @@ const Favourite = () => {
         
         <View style={styles.container}>
             <StatusBar style='dark'/>
-            <Text style={{color: 'white'}}>Favourite</Text>
+            <Text>Favourite</Text>
         </View>
        
     );
