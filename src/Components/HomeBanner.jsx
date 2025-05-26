@@ -5,7 +5,7 @@ import { responsiveHeight } from "react-native-responsive-dimensions";
 const HomeBanner = () => {
   return (
     <View >
-      <Image style={{height:responsiveHeight(15)}} source={require("../assets/banner.png")} />
+      <Image  source={require("../assets/banner.png")} />
     </View>
   );
 };
