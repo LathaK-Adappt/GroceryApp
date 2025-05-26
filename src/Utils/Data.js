@@ -3,13 +3,13 @@ export const fruits = [
     name: "banana",
     weight: "1kg",
     price: 30,
-    img: require('../assets/veg1.png'),
+    img: 'https://ik.imagekit.io/iwnaprfro/banana1.png?updatedAt=1748274783909',
   },
   {
     name: "apple",
     weight: "1kg",
     price: 250,
-   img: require('../assets/veg2.png'),
+   img: 'https://ik.imagekit.io/iwnaprfro/apple1.png?updatedAt=1748274785854',
   },
   {
     name: "orange",
@@ -27,25 +27,25 @@ export const fruits = [
 
 export const vegetables = [
   {
-    name: "tomoto",
+    name: "Capsicum",
     weight: "1kg",
     price: 30,
-    img: "https://w7.pngwing.com/pngs/891/45/png-transparent-tomato-tomato-fresh-fruits-thumbnail.png",
+    img: "https://ik.imagekit.io/iwnaprfro/veg1.png?updatedAt=1748274696944",
   },
   {
-    name: "Green Chilli",
+    name: "Ginger",
     weight: "1kg",
     price: 40,
-    img: "https://w7.pngwing.com/pngs/199/527/png-transparent-mirchi-ka-salan-chili-pepper-leaf-vegetable-serrano-pepper-hot-peppers-natural-foods-leaf-vegetable-food-thumbnail.png",
+    img: "https://ik.imagekit.io/iwnaprfro/veg2.png?updatedAt=1748274783836",
   },
   {
-    name: "cabbage",
+    name: "Cabbage",
     weight: "1kg",
     price: 45,
     img: "https://w7.pngwing.com/pngs/548/1000/png-transparent-green-cabbage-cauliflower-red-cabbage-white-cabbage-vegetable-savoy-cabbage-cabbage-leaf-vegetable-food-leaf-thumbnail.png",
   },
   {
-    name: "onion",
+    name: "Onion",
     weight: "1kg",
     price: 50,
     img: "https://w7.pngwing.com/pngs/788/438/png-transparent-rd-onions-red-onion-shallot-vegetable-organic-food-white-onion-onion-food-nutrition-wholesale-thumbnail.png",
