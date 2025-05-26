@@ -36,11 +36,11 @@ const Signup = () => {
         if (error.code === "auth/email-already-in-use") {
           Alert.alert("That email address is already in use!");
         }
-
         if (error.code === "auth/invalid-email") {
           Alert.alert("That email address is invalid!");
+        } if (error.code === "auth/weak-password") {
+          Alert.alert("Please enter the details fully");
         }
-
         console.error(error);
       });
   };
